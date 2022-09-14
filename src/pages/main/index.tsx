@@ -1,5 +1,10 @@
 import React from 'react';
 
-export const MainPage: React.FC = () => {
-  return <></>;
-};
+import { MainLogo } from '../../components/common';
+import * as S from './styled';
+
+export const MainPage: React.FC = () => (
+  <S.MainPageContainer>
+    <MainLogo />
+  </S.MainPageContainer>
+);
