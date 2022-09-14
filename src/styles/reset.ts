@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-//https://meyerweb.com/eric/tools/css/reset/
+// https://meyerweb.com/eric/tools/css/reset/
 export const reset = css`
   html,
   body,
