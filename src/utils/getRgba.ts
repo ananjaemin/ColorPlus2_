@@ -5,3 +5,5 @@ export const getRgbaProps = (Red: number, Green: number, Blue: number, Alpha: nu
   alpha: Alpha,
   rgba: `rgba(${Red},${Green},${Blue},${Alpha})`,
 });
+
+export const get = () => ({});
