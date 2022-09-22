@@ -6,6 +6,10 @@ import { lightTheme, darkTheme } from './theme';
 export const globalStyle = css`
   ${reset}
 
+  :root {
+    --color-Rgb-Red: 'rgb(255,0,0)';
+  }
+
   * {
     box-sizing: border-box;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
